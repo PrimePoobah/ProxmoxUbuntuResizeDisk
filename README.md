@@ -18,12 +18,12 @@ df -h
 
 # Resize the Disk
 cfdisk
-# at the bottom of the list you should see ">> Free space".  This will be equal to the about you added to your disk above.
+# at the bottom of the list you should see ">> Free space".  This will be equal to the amount you added to your disk above.
 Select the partition you would like to resize 
 # something like /dev/sda3 **you will need this in the next step**
 Select RESIZE and hit ENTER
-New size will be entire free space by default, hit ENTER
-Click WRITE, then type 'yes', press ENTER to commit the change
+The new size will use the entire amount of free disk space by default, hit ENTER
+Click WRITE, then type 'yes', and press ENTER to commit the change
 # you should no longer see the ">> Free space" in the list
 Press 'q' or select Quit
 
